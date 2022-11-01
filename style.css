@@ -1,0 +1,110 @@
+section {
+    max-width: 40rem;
+    margin: 0 auto;
+    border: 2px solid #d0d0d5;
+}
+h1 {
+    max-width: 37.25rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem;
+}
+
+h1 .flex {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+}
+h1 .flex span:first-of-type {
+    font-size: 0.7em;
+}
+#years {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    background: #0a0a23;
+    color: #fff;
+    z-index: 999;
+    padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+    margin: 0 -2px;
+}
+#years span[class] {
+    font-weight: bold;
+    width: 4.5rem;
+    text-align: right;
+}
+.table-wrap {
+    padding: 0 0.75rem 1.5rem 0.75rem;
+}
+table {
+    border-collapse: collapse;
+    border: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 3rem;
+}
+table caption {
+    color: #356eaf;
+    font-size: 1.3em;
+    font-weight: normal;
+    position: absolute;
+    top: -2.25rem;
+    left: 0.5rem;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+tr.data {
+    background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+}
+tr.data th {
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+tr.data td {
+    vertical-align: top;
+    padding: 0.3rem 0.25rem 0;
+    text-align: right;
+}
+tr.data td:last-of-type {
+    padding-right: 0.5rem;
+}
+tr.data {
+    background-image: linear-gradient(to bottom, #dfdfe2 1.845rem, white 1.845rem);
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+tr.data th {
+    text-align: left;
+    padding-top: 0.3rem;
+    padding-left: 0.5rem;
+}
+tbody th {
+    width: calc(100% - 12rem);
+}
